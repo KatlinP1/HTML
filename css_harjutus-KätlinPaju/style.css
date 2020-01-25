@@ -1,0 +1,155 @@
+/* CSS lõigu stiil */
+
+/* kõigile ühine */
+.punane{
+	color: red;
+	font-weight: bold;
+}
+.sinine{
+	color: blue;
+}
+.joonega{
+	text-decoration: underline;
+}
+.kollane_ruut{
+	background-color: yellow;
+	border-color: red;
+	border-style: solid;
+	display: inline-block;
+	text-indent: 0;
+	height: 1.2em;
+	line-height: 1;
+}
+/* Esimese lõigu stiil*/
+#esimene {
+	width: 450px;
+	background-color: lightgreen;
+	border-left: 5px solid green;
+	border-bottom: 5px solid green;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	text-align: left;
+	margin-left: 0cm;
+	margin-right: 5cm;
+	text-indent: 2cm;
+	padding-left: 0cm;
+	margin-top: 12pt;
+	margin-bottom: 0pt;
+	line-height: 1.5;
+}
+
+#teine {
+	width: 450px;
+	background-color: lightblue;
+	border-right: 9px double blue;
+	border-bottom: 9px double blue;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 10pt;
+	text-align: justify;
+	margin-left: 2.5cm;
+	margin-right: 2cm;
+	text-indent: 3cm;
+	padding-left: 0cm;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	line-height: 2;
+}
+
+#kolmas {
+	width: 380px;
+	background-color: #f1dde0;
+	border-top: 9px double purple;
+	border-bottom: 9px double purple;
+	font-family: "Courier new", slab serif, monospace;
+	font-size: 12pt;
+	text-align: center;
+	margin-left: 3.5cm;
+	margin-right: 3.5cm;
+	text-indent: 0cm;
+	padding-left: 0cm;
+	margin-top: 0pt;
+	margin-bottom: 12pt;
+	line-height: 1;
+}
+
+#kolmas-joon-all{
+	display: block;
+    width: 100%;
+    border-bottom: 3px purple solid;
+    margin-bottom: 3px;
+    margin-top: 1px;
+}
+#kolmas-joon-yleval{
+	display: block;
+    width: 100%;
+    border-bottom: 3px purple solid;
+    margin-bottom: 1px;
+    margin-top: 3px;
+}
+
+#neljas {
+	width: 540px;
+	background-color: white;
+	border-top: 3px dotted red;
+	border-bottom: 3px dotted red;
+	border-left: 3px dotted red;
+	border-right: 3px dotted red;
+	font-family: "Arial", sans-serif;
+	font-size: 13pt;
+	text-align: left;
+	margin-left: 1.5cm;
+	margin-right: 1cm;
+	text-indent: 0cm;
+	padding-left: 0cm;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	line-height: 25pt;
+	padding: 3px;
+}
+
+#neljas-teised-read {
+	padding-left: 3.5cm;
+    display: inline-block;
+}
+
+#viies {
+	width: 580px;
+	background-color: white;
+	border-bottom: 6px dashed purple;
+	border-right: 6px dashed purple;
+	font-family: "Calibri", sans-serif;
+	font-size: 14pt;
+	text-align: left;
+	margin-left: 0cm;
+	margin-right: 1cm;
+	text-indent: 0cm;
+	padding-left: 0cm;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	line-height: 25pt;
+	padding: 3px;
+}
+
+.punane-uus{
+	color: red;
+}
+
+#viies::first-letter{
+
+}
+
+.first-letter{
+	color: purple;
+	float: left;
+	font-family: "Algerian";
+	font-weight: bold;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-left: 3px;
+    padding-right: 8px;
+    /* display: inline-block; */
+    /*display: inline-block;*/
+}
+
+
